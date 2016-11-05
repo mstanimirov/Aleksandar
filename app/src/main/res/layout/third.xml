@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FrameLayout"
+    android:textAlignment="center"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout style="@style/LinearLayout"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/TextView_port"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Вашата заявка е изпратена Успешно. Препоръчително е да качите снимки на талона на МПС (максимум 3). Ако нямате възможност, това може да направите по късно на линк, изпратен на посочения от Вас e-mail адрес"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_marginBottom="25dp">
+
+                <ImageButton
+                    android:id="@+id/import_photo"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/import_photo" />
+
+                <ImageButton
+                    android:id="@+id/photo"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/photo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/later"
+                    style="@style/ButtonHS"
+                    android:text="@string/later"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#891079</color>
+    <color name="colorPrimaryDark">#660c5a</color>
+    <color name="colorAccent">#e51ccb</color>
+    <color name="newbackground">#80FFFFFF</color>
+
+    <color name="start">#87B87F</color>
+    <color name="center">#87B87F</color>
+    <color name="end">#87B87F</color>
+
+    <color name="pressed_start">#629b58</color>
+    <color name="pressed_center">#629b58</color>
+    <color name="pressed_end">#629b58</color>
+
+    <color name="border">#fff</color>
+    <color name="button_border">#D16801</color>
+    <color name="button_border2">#87B87F</color>
+    <color name="input_border">#FF9000</color>
+
+    <color name="error">#f00</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="grey">#F2F2F2</color>
+
+    <color name="dialog_border">#FF9000</color>
+    <color name="dialog_border_left">#80DDDDDD</color>
+    <color name="dialog_text">#FF9000</color>
+    <color name="dialog_btn_hover">#40FF9000</color>
+</resources>

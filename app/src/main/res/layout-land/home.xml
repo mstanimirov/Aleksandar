@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    style="@style/FrameLayout">
+
+    <RelativeLayout style="@style/LinearLayout">
+
+
+        <LinearLayout
+            android:id="@+id/TopLinear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp">
+
+            <ImageButton
+                android:id="@+id/Quote"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/apply"
+                android:gravity="center"
+                android:onClick="quote" />
+
+            <ImageButton
+                android:id="@+id/About"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/about" />
+
+            <ImageButton
+                android:id="@+id/Privacy"
+                android:layout_width="110dp"
+                android:layout_height="164dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/privacy"
+                android:gravity="bottom" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="bottom|center">
+    </com.google.android.gms.ads.AdView>
+
+</FrameLayout>

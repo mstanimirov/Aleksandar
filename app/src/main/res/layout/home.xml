@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    style="@style/FrameLayout">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/TopLinear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/Quote"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/apply"
+                    android:onClick="quote" />
+
+                <ImageButton
+                    android:id="@+id/About"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/about"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/MiddleLinear"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/TopLinear"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BottomLinear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/MiddleLinear"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/Privacy"
+                    android:layout_width="115dp"
+                    android:layout_height="168dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/privacy"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="bottom|center">
+    </com.google.android.gms.ads.AdView>
+
+</FrameLayout>

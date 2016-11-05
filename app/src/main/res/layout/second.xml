@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group"
+    style="@style/FrameLayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/ScrollView">
+
+        <LinearLayout style="@style/LinearLayout">
+
+            <!-- Brand -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/brand" />
+
+            <EditText
+                android:id="@+id/brand"
+                style="@style/EditText_port"
+                android:hint="@string/brand_hint"
+                android:inputType="textNoSuggestions"  android:imeOptions="flagNoExtractUi" />
+
+            <TextView
+                android:id="@+id/brand_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Model -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/model" />
+
+            <EditText
+                android:id="@+id/model"
+                style="@style/EditText_port"
+                android:hint="@string/model_hint"
+                android:inputType="textNoSuggestions"  android:imeOptions="flagNoExtractUi" />
+
+            <TextView
+                android:id="@+id/model_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Registration Number -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/reg_number" />
+
+            <EditText
+                android:id="@+id/reg_number"
+                style="@style/EditText_port"
+                android:hint="@string/reg_number_hint"
+                android:inputType="textNoSuggestions"  android:imeOptions="flagNoExtractUi" />
+
+            <TextView
+                android:id="@+id/reg_number_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Rama Number -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/rama_num" />
+
+            <EditText
+                android:id="@+id/rama_num"
+                style="@style/EditText_port"
+                android:hint="@string/rama_num_hint"
+                android:inputType="textNoSuggestions"  android:imeOptions="flagNoExtractUi" />
+
+            <TextView
+                android:id="@+id/rama_num_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Seats -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/seats" />
+
+            <EditText
+                android:id="@+id/seats"
+                style="@style/EditText_port"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="false"
+                android:hint="@string/seats_hint"
+                android:inputType="textNoSuggestions" />
+
+            <TextView
+                android:id="@+id/seats_error"
+                style="@style/Error"
+                android:text="" />
+
+
+            <!-- Policy Date -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/policy_date" />
+
+            <EditText
+                android:id="@+id/policy_date"
+                style="@style/EditText_port"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="false"
+                android:hint="@string/policy_date_hint"
+                android:inputType="textNoSuggestions" />
+
+            <TextView
+                android:id="@+id/policy_date_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Insurer -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/insurer" />
+
+            <EditText
+                android:id="@+id/insurer"
+                style="@style/EditText_port"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="false"
+                android:hint="@string/insurer_hint"
+                android:inputType="textNoSuggestions" />
+
+            <TextView
+                android:id="@+id/insurer_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Insurance -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/insurance" />
+
+            <EditText
+                android:id="@+id/insurance"
+                style="@style/EditText_port"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="false"
+                android:hint="@string/insurance_hint"
+                android:inputType="textNoSuggestions" />
+
+            <TextView
+                android:id="@+id/insurance_error"
+                style="@style/Error"
+                android:text="" />
+
+            <!-- Deferred Payment -->
+
+            <TextView
+                style="@style/TextView_port"
+                android:text="@string/def_payment" />
+
+            <EditText
+                android:id="@+id/def_payment"
+                style="@style/EditText_port"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="false"
+                android:hint="@string/def_payment_hint"
+                android:inputType="textNoSuggestions" />
+
+            <TextView
+                android:id="@+id/def_payment_error"
+                style="@style/Error"
+                android:text="" />
+
+            <CheckBox
+                android:id="@+id/green_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_check"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/green_card"
+                android:textColor="#000" />
+
+            <TextView
+                style="@style/Error"
+                android:text="" />
+
+            <LinearLayout
+                android:id="@+id/partner"
+                style="@style/LinearLayout"
+                android:layout_marginBottom="10dp"
+                android:animateLayoutChanges="true"
+                android:visibility="gone">
+
+                <!-- First Name -->
+
+                <TextView
+                    style="@style/TextView_port"
+                    android:text="@string/gc_fname" />
+
+                <EditText
+                    android:id="@+id/gc_fname"
+                    style="@style/EditText_port"
+                    android:hint="@string/gc_fname_hint"
+                    android:inputType="textNoSuggestions"  android:imeOptions="flagNoExtractUi" />
+
+                <TextView
+                    android:id="@+id/gc_fname_error"
+                    style="@style/Error"
+                    android:text="" />
+
+                <!-- Second Name -->
+
+                <TextView
+                    style="@style/TextView_port"
+                    android:text="@string/gc_sname" />
+
+                <EditText
+                    android:id="@+id/gc_sname"
+                    style="@style/EditText_port"
+                    android:hint="@string/gc_sname_hint"
+                    android:inputType="textNoSuggestions"  android:imeOptions="flagNoExtractUi" />
+
+                <TextView
+                    android:id="@+id/gc_sname_error"
+                    style="@style/Error"
+                    android:text="" />
+
+                <!-- Third Name -->
+
+                <TextView
+                    style="@style/TextView_port"
+                    android:text="@string/gc_tname" />
+
+                <EditText
+                    android:id="@+id/gc_tname"
+                    style="@style/EditText_port"
+                    android:hint="@string/gc_tname_hint"
+                    android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" />
+
+                <TextView
+                    android:id="@+id/gc_tname_error"
+                    style="@style/Error"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/send"
+                    style="@style/ButtonHS"
+                    android:text="@string/send" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

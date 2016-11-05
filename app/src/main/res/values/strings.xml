@@ -1,0 +1,165 @@
+<resources>
+
+    <string name="app_name">Александър Брокер</string>
+
+    <string name="packageName">com.aleksandarbroker.insurance</string>
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>--> <!--Google Admob Test Banner Id-->
+    <!--<string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>--> <!--Google Admob Test Interstitial Id-->
+    <string name="banner_ad_unit_id">ca-app-pub-6977436140360247/55917712111</string>
+    <string name="admob_interstitial_id">ca-app-pub-6977436140360247/4577539619</string>
+
+    <!-- Data Base -->
+
+    <string name="DataBaseName">AleksandarBroker</string>
+    <string name="DataBaseTableName">AlBroker</string>
+    <string name="DataBaseTableFields">id integer primary key autoincrement,
+        fname VARCHAR,
+        sname VARCHAR,
+        tname VARCHAR,
+        egn VARCHAR,
+        mobile_number VARCHAR,
+        email VARCHAR,
+        bulstat VARCHAR,
+        firm_name VARCHAR,
+        firm_address VARCHAR,
+        city VARCHAR,
+        address VARCHAR,
+        brand VARCHAR,
+        model VARCHAR,
+        reg_number VARCHAR,
+        rama_no VARCHAR,
+        seats VARCHAR,
+        policy_date VARCHAR,
+        insurer VARCHAR,
+        insurance VARCHAR,
+        def_payment VARCHAR,
+        fname_lat VARCHAR,
+        sname_lat VARCHAR,
+        tname_lat VARCHAR,
+        password VARCHAR</string>
+    <string name="NODB">База Данни не съществува</string>
+    <string name="DBDELETED">База Данни изтрита</string>
+
+    <!-- Login Strings -->
+
+    <string name="PIN_FIRSTLOGINSTRING">Моля въведете парола ако желате данните ви да се пазят на това устройство след изпращане.</string>
+    <string name="PIN_SECONDLOGINSTRING">Моля въведете парола за да заредите запазените от вас данни</string>
+    <string name="PIN_FIRSTERROR">Грешна парола - остават два опита</string>
+    <string name="PIN_SECONDERROR">Грешна парола - остава един опит</string>
+    <string name="PIN_THIRDERROR">Грешна парола - остават нула опита</string>
+    <string name="PIN_CLEAR">Изчистване на База Данни.....</string>
+
+    <string name="later">По-късно</string>
+    <string name="finish">Потвърждаване</string>
+
+    <string name="fname">Име</string>
+    <string name="sname">Презиме</string>
+    <string name="tname">Фамилия</string>
+
+    <string name="fname_hint">Име/кирилица</string>
+    <string name="sname_hint">Презиме/кирилица</string>
+    <string name="tname_hint">Фамилия/кирилица</string>
+
+    <string name="egn">ЕГН/ЛНЧ</string>
+    <string name="mobile_number">Мобилен номер</string>
+    <string name="email">Email адрес</string>
+
+    <string name="egn_hint">ЕГН/ЛНЧ</string>
+    <string name="mobile_number_hint">Мобилен номер</string>
+    <string name="email_hint">Email адрес</string>
+
+    <string name="city">Населено Място</string>
+    <string name="address">Пълен адрес</string>
+
+    <string name="city_hint">Населено Място/Град, Област</string>
+    <string name="address_hint">улица, номер, блок, етаж</string>
+
+    <string name="bulstat">Булстат</string>
+    <string name="firm_name">Име на Фирма</string>
+
+    <string name="bulstat_hint">Булстат</string>
+    <string name="firm_name_hint">Име на Фирма</string>
+
+    <string name="firm_address">Адрес на Фирма</string>
+    <string name="firm_address_hint">Адрес на Фирма</string>
+
+    <string name="check">Юридическо лице?</string>
+    <string name="check2">Регистрация по ДДС?</string>
+
+    <string name="step2">Към втора стъпка...</string>
+
+    <string name="brand">Марка</string>
+    <string name="model">Модел</string>
+    <string name="reg_number">Рег.номер</string>
+
+    <string name="brand_hint">Марка на МПС/латиница</string>
+    <string name="model_hint">Модел на МПС/латиница</string>
+    <string name="reg_number_hint">Регистрационен Номер</string>
+
+    <string name="rama_num">Номер на рама</string>
+    <string name="seats">Места</string>
+
+    <string name="rama_num_hint">Номер на рама</string>
+    <string name="seats_hint">Брой Места</string>
+
+    <string name="policy_date">Дата на полицата</string>
+    <string name="insurer">Застраховател</string>
+
+    <string name="policy_date_hint">Изберете дата на полицата</string>
+    <string name="insurer_hint">Предпочитано Дружество</string>
+
+    <string name="insurance">Тип Застраховка</string>
+    <string name="insurance_hint">Изберете Тип Застраховка</string>
+
+    <string name="def_payment">Разсрочено Плащане</string>
+    <string name="def_payment_hint">Изберете Тип Застраховка</string>
+
+    <string name="green_card">Зелена Карта?</string>
+
+    <string name="gc_fname">Име</string>
+    <string name="gc_sname">Презиме</string>
+    <string name="gc_tname">Фамилия</string>
+
+    <string name="gc_fname_hint">Име/латиница</string>
+    <string name="gc_sname_hint">Презиме/кирилица</string>
+    <string name="gc_tname_hint">Фамилия/кирилица</string>
+
+    <string name="send">Поръчай...</string>
+    <string name="title_activity_about">Относно</string>
+    <string name="title_activity_privacy">Условия за ползване</string>
+    <string name="text1">
+
+        \n\nЗдравейте, "Александър Брокер" има удоволствието да Ви представи формата на улесненото застраховане:
+
+    </string>
+    <string name="text2">
+
+        \nЗа всяка сключена полица Гражданска Отговорност получавате:
+
+    </string>
+    <string name="text3">
+
+        \n1. Безплатна доставка на полицата
+        \n\n2. Ваучер за смяна на гуми за района на София - сменете 4 броя гуми, без значение от големината,само за 20 лева в Авто Вип Сервиз
+
+    </string>
+    <string name="text4">
+
+        \nЗа всяка сключена полица "Авто Каско" получавате:
+
+    </string>
+    <string name="text5">
+
+        \n1. Безплатна доставка на полицата
+
+        \n\n2. Ваучер включващ : безплатна автомивка, реглаж на автомобила само за 10 лв, смяна на гуми 4 бр само за 20лв., -10% отстъпка при услугите в Авто Вип Сервиз
+
+        \n\n3. Пълно следзастрахователно обслужване: завеждане на щети, подсещане за срок на полица, възстановяването на щети в собствен сервиз, безплатна автомивка при ползване на сервиза, взимане на автомобила за ремонт и връщане след ремонт до удобно за Вас място\n\n
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="all_photo">Изберете Снимки</string>
+    <string name="previews">Преглед</string>
+
+</resources>

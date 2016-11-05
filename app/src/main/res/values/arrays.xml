@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Seats -->
+
+    <string-array name="seats_keys">
+        <item></item>
+        <item>1+1</item>
+        <item>2+1</item>
+        <item>3+1</item>
+        <item>4+1</item>
+        <item>5+1</item>
+        <item>6+1</item>
+        <item>7+1</item>
+        <item>8+1</item>
+        <item>9+1</item>
+        <item>10+</item>
+    </string-array>
+
+    <string-array name="seats_array">
+        <item></item>
+        <item>1+1</item>
+        <item>2+1</item>
+        <item>3+1</item>
+        <item>4+1</item>
+        <item>5+1</item>
+        <item>6+1</item>
+        <item>7+1</item>
+        <item>8+1</item>
+        <item>9+1</item>
+        <item>Над 10 места</item>
+    </string-array>
+
+    <!-- Insurer -->
+
+    <string-array name="insurer_keys">
+        <item></item>
+        <item>Александър Брокер</item>
+        <item>Asset Insurance</item>
+        <item>ДЗИ</item>
+        <item>Generali</item>
+        <item>Булинс</item>
+        <item>Алианц</item>
+        <item>ЕвроИнс</item>
+        <item>Уника</item>
+        <item>Булстрад</item>
+        <item>Групама</item>
+        <item>Армеец</item>
+        <item>Левинс</item>
+        <item>ОЗК</item>
+    </string-array>
+
+    <string-array name="insurer_array">
+        <item></item>
+        <item>Изберете ми най-добрата цена</item>
+        <item>Asset Insurance</item>
+        <item>ДЗИ</item>
+        <item>Generali</item>
+        <item>Булинс</item>
+        <item>Алианц</item>
+        <item>ЕвроИнс</item>
+        <item>Уника</item>
+        <item>Булстрад</item>
+        <item>Групама</item>
+        <item>Армеец</item>
+        <item>Левинс</item>
+        <item>ОЗК</item>
+    </string-array>
+
+    <!-- Insurance -->
+
+    <string-array name="insurance_keys">
+        <item></item>
+        <item>Авто Каско</item>
+        <item>Гражданска Отговорност</item>
+    </string-array>
+
+    <string-array name="insurance_array">
+        <item></item>
+        <item>Авто Каско</item>
+        <item>Гражданска Отговорност</item>
+    </string-array>
+
+    <!-- Deferred Payment -->
+
+    <string-array name="def_payment_keys">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="def_payment_array">
+        <item></item>
+        <item>Не желая</item>
+        <item>1 вноска</item>
+        <item>2 вноски</item>
+        <item>3 вноски</item>
+        <item>4 вноски</item>
+    </string-array>
+
+</resources>
+
+    <!-- option value="([а-яА-яa-zA-z 0-9+]*)" -->
